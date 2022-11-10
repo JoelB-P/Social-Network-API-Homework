@@ -1,7 +1,7 @@
 const { Schema, model, Types } = require('mongoose');
 const dateFormat = require('../utils/dateFormat')
 
-var schema = new Schema (
+const schema = new Schema (
     {
         username: {
             type: String,
